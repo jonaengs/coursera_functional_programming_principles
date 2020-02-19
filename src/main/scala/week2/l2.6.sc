@@ -26,3 +26,11 @@ class UnsimplifiedRational(x: Int, y: Int) {
     numer / g + "/" + denom / g
   }
 }
+
+// testing
+def a() = {
+  def f() = println("abcabc")
+  f
+}
+
+a()
